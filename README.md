@@ -1,2 +1,4 @@
 # Data-Mining
 A project in Data Mining using harth dataset.
+
+For this project we used the harth dataset, which contains measurements for the x, y, and z axis from the back and the thigh of 22 participants. The first task was about Data Analysis and Preprocessing. We saw that each measurement comes with its label that says what movement we observe. The dataset consists of 12 different movements, from walking to running and from cyclind(stand) to cycling(sit, inactive). After analyzing the dataset we focused on the classiffication of the measurements in each of the 12 labels. For this task we implemented a Convolutional 2D Neural Network, a Random Forest Algorithm and Bayesia Network. The results showed accuracies of 97%, 80% and 81% respectively. Task 3 was about clustering with DBSCAN, Mini Batch K-means and Birch, with the silhouette and purity as evaluation metrics.  
